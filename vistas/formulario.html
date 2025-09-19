@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo Formulario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!--Primer item del menu-->
+                <li>
+                    <a href="../index.html"> <!--Ruta relativa en el mismo documento -->
+                        Ir al Inicio
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <h1>Manejo de forulario</h1> <!--Datos sencibles por POST por de tras-->
+
+    <form action="" method="get">
+        <!--action a donde se envia el formulario, method como se envia el formulario get o post-->
+        <!-- Crear campo usuario-->
+
+        <div> <!--for es para enlzar y llenar cuadro al dar click -->
+            <label for="usuario">Ingrese el usuario:</label>
+            <!-- lebel crear texto estatico, maxlength limite de caracteres-->
+            <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario" maxlength="20"
+                minlength="3"> <!--input crear campo de texto placeholder maraca de agua-->
+        </div>
+        <br>
+
+        <!-- Crear campo contraseña-->
+        <div>
+            <label for="">Ingrese la contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+        </div>
+
+        <!-- Crear un boton-->s
+        <div>
+            <input type="submit" value="Enviar formulario"> <!--input tipo boton enviar formulario-->
+        </div>
+
+    </form>
+    <!--Insertaar una imagen-->
+    <img src="../img/images.jpg" alt="Facebook" width="500px" height="400px">
+
+</body>
+
+</html>
