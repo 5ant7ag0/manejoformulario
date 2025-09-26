@@ -1,0 +1,82 @@
+.encabezado.caja {
+    /* Estilos específicos para la caja del encabezado */
+    background: #0f172a;
+    /* Fondo azul oscuro */
+    color: #fff;
+    /* Texto blanco */
+    border: 0;
+    display: grid;
+    /* Usamos grid para el diseño */
+    grid-template-columns: 150px 1fr 150px;
+    /* 3 columnas: imagen, texto, espacio vacío */
+    align-items: center;
+    /* Alineamos verticalmente al centro */
+    padding: 16px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.encabezado img {
+    /* Estilos para la imagen del encabezado */
+    border-radius: 8px;
+    justify-self: start;
+    /* Alineamos la imagen a la izquierda */
+}
+
+.encabezado h1,
+.encabezado h5 {
+    /* Estilos para los títulos en el encabezado */
+    margin: 4px 0;
+    /* Margen superior e inferior */
+    grid-column: 2;
+    /* Ocupan la segunda columna */
+}
+
+/* 2 columnas y cajas */
+.cv {
+    /* Contenedor principal */
+    display: grid;
+    /* Usamos grid para hacer 2 columnas */
+    grid-template-columns: 280px 1fr;
+    /* 280px para la columna izquierda y el resto para la derecha */
+    gap: 20px;
+    /* Espacio entre columnas */
+    width: min(1100px, 92%);
+    /* Ancho máximo de 1100px o 92% del contenedor */
+    margin: 24px auto;
+    /* Centrado horizontal con margen superior e inferior */
+}
+
+.caja {
+    /* Estilos comunes para todas las cajas */
+    background: #fff;
+    /* Fondo blanco */
+    border: 1px solid #d1d5db;
+    /* Borde gris claro */
+    padding: 16px;
+    /* Espaciado interno */
+    margin-bottom: 16px;
+    /* Espacio inferior entre cajas */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+.navegacion.caja {
+    /* Estilos específicos para la caja de navegación */
+    background: #0f172a;
+    /* Fondo azul oscuro */
+    color: #fff;
+    /* Texto blanco */
+    border: 0;
+}
+
+.navegacion a {
+    /* Estilos para los enlaces de navegación */
+    color: #fff;
+    /* Texto blanco */
+    text-decoration: none;
+    /* Sin subrayado */
+    margin-right: 8px;
+    /* Espacio entre enlaces */
+}

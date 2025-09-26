@@ -1,98 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Tenensaray</title>
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 
 <body>
-    <img src="/img/santn.jpeg" alt="Santiago" width="150px" height="200px">
-    <h1> Santiago Tenensaray</h1>
-    <h5>Desarrollador de Software</h5>
-    <nav>
-        <a href="#sobremi">Sobre mi</a> |
+    <header class="encabezado caja"> <!-- clase caja para el estilo -->
+        <img src="/img/santn.jpeg" alt="Santiago" width="150" height="200">
+        <div>
+            <h1>Santiago Tenensaray</h1>
+            <h5>Desarrollador de Software</h5>
+        </div>
+    </header>
+
+    <nav class="navegacion caja"> <!-- Barra de navegación -->
+        <a href="#sobremi">Sobre mí</a> |
         <a href="#contacto">Contacto</a> |
         <a href="#referencias">Referencias</a> |
-        <a href="#formacionacademica">Formacion Académica</a> |
+        <a href="#formacionacademica">Formación Académica</a> |
         <a href="#experiencia">Experiencia</a> |
         <a href="#habilidades">Habilidades</a> |
         <a href="#idiomas">Idiomas</a>
     </nav>
 
-    <br>
-    <h2 id="sobremi">SOBRE MI:</h2>
-    <p>Soy estudiante de Desarrollo de Software en el Instituto Tecnológico Quito (ITQ),
-        con experiencia en proyectos académicos y personales de programación en Java y Python,
-        gestión de bases de datos y desarrollo web. Me caracterizo por mi enfoque en la organización,
-        la lógica de programación y la innovación en soluciones tecnológicas.
-    </p>
+    <!-- Grid de dos columnas -->
+    <main class="cv">
+        <!-- COLUMNA IZQUIERDA -->
+        <aside class="columna izquierda">
+            <section id="sobremi" class="seccion caja">
+                <h2>SOBRE MÍ</h2>
+                <p>Soy estudiante de Desarrollo de Software en el Instituto Tecnológico Quito (ITQ),
+                    con experiencia en proyectos académicos y personales de programación en Java y Python,
+                    gestión de bases de datos y desarrollo web. Me caracterizo por mi enfoque en la organización,
+                    la lógica de programación y la innovación en soluciones tecnológicas.
+                </p>
+            </section>
 
-    <h2 id="contacto">CONTACTO</h2>
-    <ul>
-        <li>WhatsApp: <a href="https://wa.me/593985649800" target="_blank">0985649800</a></li>
-        <li>X: <a href="https://x.com/SSantyTY" target="_blank">@SSantyTY</a></li>
-        <li>Correo: <a href="mailto:santiago@hotmail.com">santiago@hotmail.com</a></li>
-        <li>Dirección: Conocoto, Lola Quintana 4F</li>
-        <li>Cédula: 17565656</li>
-    </ul>
-    <br>
-    <h2 id="referencias">REFERENCIAS</h2>
-    <ul>
-        <li><strong>Ing. René Cárdenas</strong> – Docente<br>
-            <a href="tel:+593992345678">099 234 5678</a>
-        </li>
-        <li><strong>Lic. Pedro Fernández</strong> – Gerente<br>
-            <a href="tel:+593987654321">098 765 4321</a>
-        </li>
-    </ul>
-    <br>
+            <section id="contacto" class="seccion caja">
+                <h2>CONTACTO</h2>
+                <ul>
+                    <li>WhatsApp: <a href="https://wa.me/593985649800" target="_blank">0985649800</a></li>
+                    <li>X: <a href="https://x.com/SSantyTY" target="_blank">@SSantyTY</a></li>
+                    <li>Correo: <a href="mailto:santiago@hotmail.com">santiago@hotmail.com</a></li>
+                    <li>Dirección: Conocoto, Lola Quintana 4F</li>
+                    <li>Cédula: 17565656</li>
+                </ul>
+            </section>
 
-    <h2 id="formacionacademica">FORMACION ACADEMICA</h2>
-    <ol>
-        <li>Educacion Basica: Gral. Marco A. Suvia</li>
-        <li>Bachillerato: Pedro Pablo Traversari</li>
-        <li>Educacion Superior: Instituto Tecnológico Quito</li>
-    </ol>
-    <br>
-    <h2 id="experiencia">EXPERIENCIA</h2>
-    <h5>2025 – presente | Emprendedor – Streaming y Dispositivos</h5>
-    <p>Gestión de negocio propio en venta de servicios y distribución de dispositivos electrónicos. </p>
-    <ul>
-        <li>Administración de más de 5,000 clientes en base de datos.</li>
-        <li>Migración y automatización de procesos en Airtable y Apple Numbers.</li>
-        <li>Implementación de métodos de pago digitales en Ecuador.</li>
-    </ul>
-    <br>
-    <h4>2025 | Proyecto académico “CodeCine” – ITQ</h4>
-    <p>Sistema en Java para la gestión de salas de cine.</p>
-    <ul>
-        <li>Desarrollo de reservas con matrices y menús interactivos.</li>
-        <li>Presentación como proyecto final de Fundamentos de Programación.</li>
-    </ul>
-    <br>
-    <h4>2025 | Proyecto académico “Elecciones Presidenciales ITQ 2025” – ITQ</h4>
-    <p>Simulador de elecciones en Java con conexión a PostgreSQL.</p>
-    <ul>
-        <li>Implementación de registro de candidatos, provincias, recintos y votantes.</li>
-        <li>Programación estructurada y aplicación de conceptos de POO.</li>
-    </ul>
-    <br>
-    <h2 id="habilidades">HABILIDADES</h2>
-    <ul>
-        <li>Programación en Java, Python y SQL.</li>
-        <li>Análisis de sistemas.</li>
-        <li>Gestión de bases de datos.</li>
-        <li>Liderazgo y trabajo en equipo.</li>
-        <li>Comunicación efectiva.</li>
-    </ul>
-    <br>
-    <h2 id="idiomas">IDIOMAS</h2>
-    <ul>
-        <li>Español: Nativo</li>
-        <li>Inglés: Intermedio (B1)</li>
-    </ul>
+            <section id="referencias" class="seccion caja">
+                <h2>REFERENCIAS</h2>
+                <ul>
+                    <li><strong>Ing. René Cárdenas</strong> – Docente<br>
+                        <a href="tel:+593992345678">099 234 5678</a>
+                    </li>
+                    <li><strong>Lic. Pedro Fernández</strong> – Gerente<br>
+                        <a href="tel:+593987654321">098 765 4321</a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- COLUMNA DERECHA -->
+        <section class="columna derecha">
+            <section id="formacionacademica" class="seccion caja">
+                <h2>FORMACIÓN ACADÉMICA</h2>
+                <ol>
+                    <li>Educación Básica: Gral. Marco A. Suvia</li>
+                    <li>Bachillerato: Pedro Pablo Traversari</li>
+                    <li>Educación Superior: Instituto Tecnológico Quito</li>
+                </ol>
+            </section>
+
+            <section id="experiencia" class="seccion caja">
+                <h2>EXPERIENCIA</h2>
+                <h5>2025 – presente | Emprendedor – Streaming y Dispositivos</h5>
+                <p>Gestión de negocio propio en venta de servicios y distribución de dispositivos electrónicos.</p>
+                <ul>
+                    <li>Administración de más de 5,000 clientes en base de datos.</li>
+                    <li>Migración y automatización de procesos en Airtable y Apple Numbers.</li>
+                    <li>Implementación de métodos de pago digitales en Ecuador.</li>
+                </ul>
+
+                <h4>2025 | Proyecto académico “CodeCine” – ITQ</h4>
+                <p>Sistema en Java para la gestión de salas de cine.</p>
+                <ul>
+                    <li>Desarrollo de reservas con matrices y menús interactivos.</li>
+                    <li>Presentación como proyecto final de Fundamentos de Programación.</li>
+                </ul>
+
+                <h4>2025 | Proyecto académico “Elecciones Presidenciales ITQ 2025” – ITQ</h4>
+                <p>Simulador de elecciones en Java con conexión a PostgreSQL.</p>
+                <ul>
+                    <li>Implementación de registro de candidatos, provincias, recintos y votantes.</li>
+                    <li>Programación estructurada y aplicación de conceptos de POO.</li>
+                </ul>
+            </section>
+
+            <section id="habilidades" class="seccion caja">
+                <h2>HABILIDADES</h2>
+                <ul>
+                    <li>Programación en Java, Python y SQL.</li>
+                    <li>Análisis de sistemas.</li>
+                    <li>Gestión de bases de datos.</li>
+                    <li>Liderazgo y trabajo en equipo.</li>
+                    <li>Comunicación efectiva.</li>
+                </ul>
+            </section>
+
+            <section id="idiomas" class="seccion caja">
+                <h2>IDIOMAS</h2>
+                <ul>
+                    <li>Español: Nativo</li>
+                    <li>Inglés: Intermedio (B1)</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer class="pie caja">
+        <small>© 2025 Santiago Tenensaray</small>
+    </footer>
 </body>
 
 </html>
