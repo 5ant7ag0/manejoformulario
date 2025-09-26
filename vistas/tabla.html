@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilostabla.css">
     <title>Tablas</title>
-    <style> <!-- Estilos CSS para la tabla -->
+    <!--<style>
         body {
-            margin: auto; /* Centra el contenido horizontalmente */
-            color: rgb(red, green, blue);  <!-- Cambia el color del texto -->
+            margin: auto;
+            /* Centra el contenido horizontalmente */
+            color: rgb(red, green, blue);
+            /* Cambia el color del texto */
+            background-color: blue;
+            /* Cambia el color de fondo */
         }
-    </style>
+
+        /* Estilo para clsese contenedorse puede usar varias veces */
+        .contenedor {
+            background: #fff;
+            /* Color de fondo blanco para el contenedor */
+            color: #c51c1c;
+            /* Color de texto oscuro para el contenedor */
+        }
+
+        /*Estilo para ID tabla solo usar 1 vez*/
+
+        #titulo {
+            color: rgb(13, 219, 34)
+            text-align: center;
+            /* Centra el texto */
+            font-size: 24px;
+            /* Tamaño de fuente */
+        }
+    </style> -->
 </head>
+
 <body>
-    <h1> Tabla de posiciones campeonato Ecuatoriano 2025</h1>
-    <div>
+    <div class="titulo-contenedor">
+
+        <h1 id="titulo"> Tabla de posiciones campeonato Ecuatoriano 2025</h1>
+    </div>
+
+    <div class="contenedor">
         <table border="1"> <!-- Define la tabla-->
             <thead> <!-- Define el encabezado de la tabla-->
                 <tr> <!-- Define una fila de encabezado -->
@@ -71,7 +100,12 @@
                 <thead>
                 </thead>
         </table>
+    </div><br>
+    
+    <div class="enlace-inicio">
+        <a href="../index.html">Ir al inicio</a>
     </div>
 
 </body>
+
 </html>

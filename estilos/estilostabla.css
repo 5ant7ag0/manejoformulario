@@ -1,0 +1,25 @@
+/*SELECTOR UNIVERSAL */
+
+*{ 
+    padding: 0;
+    margin: auto;
+    color: rgb(11, 33, 232);
+    /*background-color: black;
+    background-repeat: no-repeat;*/
+    
+}
+/*ESTILOS PARA EL CONTENEDOR DEL TITULO*/
+.titulo-contenedor{
+    background: rgb(212, 198, 226); /* Color de fondo */
+    border: 2px solid rgb(15, 15, 210); /* Borde azul */
+    border-radius: 15px; /* Bordes redondeados */
+    width: 700px ; /* Ancho del contenedor */
+    height: 50px; /* Alto del contenedor */
+    padding: 20px 50px 20px 50px; /* Espacio interno: arriba, derecha, abajo, izquierda */
+    margin: 100px 20px 50px 30px; /* Espacio externo: arriba, derecha, abajo, izquierda */
+    box-shadow: 5px 5px 15px rgba(7, 232, 29, 0.3); /* Sombra */
+}
+
+.enlace-inicio{
+    color: rgb(9, 230, 97);
+}
