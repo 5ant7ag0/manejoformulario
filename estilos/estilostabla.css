@@ -8,6 +8,16 @@
     background-repeat: no-repeat;*/
     
 }
+
+/*imagen de fondo*/
+/*body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
 /*ESTILOS PARA EL CONTENEDOR DEL TITULO*/
 .titulo-contenedor{
     background: rgb(212, 198, 226); /* Color de fondo */
@@ -22,4 +32,55 @@
 
 .enlace-inicio{
     color: rgb(9, 230, 97);
+}
+
+.contenedor1{
+    width: 200px;
+    border: 5px solid black;
+    position: relative;
+    top: -100px; /*--mover hacia arriba*/
+    left: 200px; /*mover hacia la derecha*/
+    text-align: center; /*centrar texto*/
+}
+.contenedor{ 
+    width: 90%; /*ancho del contenedor*/
+    border: 1px solid black;
+}
+
+/*Seudoclase es una clase dentro de otra clase*/
+.tabla{
+    border-collapse: collapse; /*borra los bordes de la tabla*/
+    width: 100%; /*ancho de la tabla*/
+}
+th, td{ /*th es para los encabezados y td para los datos*/
+    border: 1px solid rgb(30, 2, 88); /*bordes de la tabla*/
+    padding: 8px; /*espacio entre los bordes y el texto*/
+    text-align: left; /*alinear el texto*/
+}
+th{ /*estilo para los encabezados*/
+    background-color: rgb(107, 198, 228); /*color de fondo*/
+    font-weight: bold; /*negrita al texto*/
+}
+
+tr:nth-child(even){ /*estilo para las filas pares*/
+    background-color: rgb(199, 221, 228); /*color de fondo*/
+}
+
+/*seudoclase hover para las filas*/
+tr:hover{ /*estilo para las filas al pasar el mouse*/
+    background-color: rgb(192, 150, 188); /*color de fondo al pasar maouse*/
+}
+
+/*estilos para el contenedor del enlace*/
+
+a{
+    text-decoration: none; /*elimina el subrayado del enlace*/
+    color: rgb(208, 108, 8); /*color del enlace*/
+    font-size: 20px; /*tamaño de la fuente*/
+}
+a:hover{ /*estilo para el enlace al pasar el mouse*/
+    color: rgb(9, 230, 97); /*color del enlace al pasar maouse*/
+}
+a:visited{ /*estilo para el enlace visitado*/
+    color: rgb(35, 249, 142); /*color del enlace visitado*/
 }
