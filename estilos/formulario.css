@@ -4,8 +4,8 @@ form { /*selector de la etiqueta del formulario*/
     max-width: 400px; /*Ancho maximo*/
     margin: 0 auto; /*centrar el formulario*/
     padding: 20px;
-    background-color: #90f4f0;
-    border: 3px solid #ccc;
+    background-color: #81e495;
+    border: 3px solid #e40e0e;
     border-radius: 8px;
 }
 
