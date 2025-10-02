@@ -37,7 +37,7 @@
 .contenedor1{
     width: 200px;
     border: 5px solid black;
-    position: relative;
+    position: relative; 
     top: -100px; /*--mover hacia arriba*/
     left: 200px; /*mover hacia la derecha*/
     text-align: center; /*centrar texto*/
@@ -78,8 +78,10 @@ a{
     color: rgb(208, 108, 8); /*color del enlace*/
     font-size: 20px; /*tamaño de la fuente*/
 }
+
 a:hover{ /*estilo para el enlace al pasar el mouse*/
     color: rgb(9, 230, 97); /*color del enlace al pasar maouse*/
+    
 }
 a:visited{ /*estilo para el enlace visitado*/
     color: rgb(35, 249, 142); /*color del enlace visitado*/

@@ -1,20 +1,21 @@
 /* ESTILOS PARA EL FORMULARIO */
 
 form { /*selector de la etiqueta del formulario*/
-    max-width: 400px;
-/*central el formulario*/
+    max-width: 400px; /*Ancho maximo*/
     margin: 0 auto; /*centrar el formulario*/
     padding: 20px;
-    background-color: #e6ede5;
+    background-color: #90f4f0;
     border: 3px solid #ccc;
     border-radius: 8px;
 }
+
 form label { /*selector de la etiqueta label*/
     
     display: block; /*hacer que los labels se muestren en bloque*/
     margin-bottom: 5px; /*espacio debajo de cada label*/
     font-weight: bold; /*negrita en los labels*/
 }
+
 form input[type="text"],
 form input[type="email"],
 form input[type="password"], /*selector de los inputs de tipo texto, email y password*/
